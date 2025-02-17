@@ -1,19 +1,19 @@
 const { API_BUTTON } = require('./src/constants')
 
-const editUrl = 'https://github.com/yewstack/yew/blob/master/website/'
+const editUrl = 'https://github.com/HongxuLiu/yew/tree/master/website/'
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: 'Yew',
     tagline:
         'A framework for creating reliable and efficient web applications.',
-    url: 'https://yew.rs',
+    url: 'https://hongxu-yew.rs',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.svg',
-    organizationName: 'yewstack', // Usually your GitHub org/user name.
-    projectName: 'yew', // Usually your repo name.
+    organizationName: 'HongxuLiu', // Usually your GitHub org/user name.
+    projectName: 'Hongxu-Yew', // Usually your repo name.
     themeConfig: {
         docs: {
             sidebar: {
@@ -70,7 +70,7 @@ module.exports = {
                     label: API_BUTTON,
                 },
                 {
-                    href: 'https://github.com/yewstack/yew',
+                    href: 'https://github.com/HongxuLiu/yew',
                     label: 'GitHub',
                     position: 'right',
                 },
